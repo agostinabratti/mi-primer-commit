@@ -40,6 +40,8 @@ h1 {
     position: relative;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    display: inline-block;
+    margin-left: 30%;   
 
 }
 @keyframes animacion {
@@ -57,6 +59,7 @@ main p {
     font-family: 'Darker Grotesque', sans-serif;
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 2rem;    
+    padding-left: 2%;
 }
 a {
     font-size: 2rem;
@@ -100,6 +103,7 @@ footer{
     font-family: 'Darker Grotesque', sans-serif;
     display: inline-block;
     margin: 2rem 3rem 4rem 0rem;
+    padding-left: 2%;
 }
 .iconosfooter {
     display: flex;
@@ -155,7 +159,7 @@ div p {
 .articleGrid{
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(4, 140px);
+    grid-template-rows: repeat(4, 130px);
     text-align: center;
     margin-top: 40px;
     grid-template-areas: 
@@ -235,9 +239,10 @@ div p {
     }  
     .mainparrafo {
         margin: 1rem;
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-wrap: wrap;
+        padding: 1rem;
     }
     .fixed {
         display: none;
@@ -255,7 +260,9 @@ div p {
         position: relative;
         animation-timing-function: linear;
         animation-iteration-count: infinite; 
-        display: inline-block;     
+        display: inline-block;
+        margin-left: 15%;
+           
         
     }
     @keyframes animacion {
