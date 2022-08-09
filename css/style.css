@@ -93,6 +93,7 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        margin-top: 2rem;
 }
 .mainparrafo{   
     margin: 3rem 0.5rem 3rem 1rem;
